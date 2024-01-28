@@ -1,0 +1,144 @@
+Java...
+
+
+**Date Types**
+
+Primitive /Inbuilt data types
+- Integer types:
+	byte: 8 bits
+	short: 16 bits
+	int: 32 bits
+	long: 64 bits
+- Floating point types
+	float: 32 bits
+	double: 64 bits
+- Character
+	char: 16 bits
+- Boolean
+	boolean: true/false
+
+Reference / User-defined data types
+- Arrays
+- Class
+- String
+
+
+Variables: A variable is a container that holds values that are used in a java program.
+	Every variable must be declared to use a data type.
+	Variable can start with $ or _ or aplhabet, it cab be any max length and can be lower or upper case. 
+	Variable cant start with number of be a keywords or special characters.
+
+Literal: What value (datatype) you going to the variables. 
+Examples:
+Integer Data type:
+	Decimal: int x = 45;
+	Octal: int y = 034;
+	Binary: int p = .Ob1100
+	Hexadeciamal int z = 0xABC
+	byte b = 100;
+	short s = 10000;
+	long x = 2345L
+	long y = 23l;
+Floating Point Types:
+	float a = 23.4f;
+	float b =23.F
+	double x = 23;
+	double y = 34.9d
+	double z = 34.8D
+Character: (default \0u; String default value null; doubel default 0.0 and float default value is 0.0m)
+- unicode representation of characters (special characters)
+	\\ - backslash
+	\b - backspace
+	\" - double quotes
+	\' - single quotes
+	\n - newline
+	\t - tab
+Boolean
+	boolean b = true; (default is false)
+
+Underscore: separate digits in a group like a comma. Cant use the underscore after, before of digit, suffix or decimal point.
+1234_4567_7894_1569L
+
+Enum: is a data type with a set of predefined constants (directions, week); define an enum type with the enum keyword.
+
+enum Days {Monday, Tuesday, Wednesday, Thursday, Friday} 	
+	
+Type Casting and Conversion:
+	Automatic Conversion Upcasting:
+		- Two types are compatible.
+		- Target type is greater than the source.
+		E.g. int y = 40;
+		long x=y;
+	Narrowing Conversion Downcasting:
+		- Two types are incompatible.
+		- Target type is smaller than the source
+		E.g. long y = 40;
+		int x = (int) y;
+
+**Airthmetic Operators:**
+	Basic Operators (+,-,*,/,%,+=,-=,*=,%=)
+	Increment & Decrement (++X*2,, X++*2, --y+2, y--*2)
+	Relational Operators: (>,<,>=,<=,==,!=)
+	Boolean Logical Operators (&,|,^,&=,|=,^=,&&,||,==,!=)
+	Short circuit logical operators (&&, ||)
+	// True False Table.
+	Ternary Operator: to avoid if else statement. Syntax:(expr1?expr2:expr3)
+	Shit operator and bitwise operator works on byte ???
+	
+	* local variable doesn't take any value. it must be utlize before using it. 
+	
+***Control Flow Statement ***
+Selection Statement
+	- if: takes conditional statement and result (set of statement) based on the true and false. (simple if, ladder if and nested if)
+	if(){
+	}else{
+	}
+	
+	if(){
+	}elseif{
+	}else {
+	}
+	if(){
+		if(){
+		}
+	}
+	
+	
+	- switch: doen't take a condition, it only take a constant value and return a result integer only. Float, double and long is not acceptable. It take a expression and return a string value. You can go for multiple condition or cases. 
+	switch(expr){
+	case 30: 
+	sysout();
+	break;
+	case 50;
+	sysout();
+	break;
+	default
+	// statement
+	break;
+	}
+Iteration Statement
+	- for / for-each: for iterate through a list or loop through a array for a particular number of times. 
+	for(initialization; condition;increment){
+	// set of statement
+	}
+	for(datatype variable: array){
+	// set of statement
+	}
+	
+	
+	- while: (entry loop)looping for number of time for a particular condition.
+	while(condition){
+	// set of condition
+	}
+	- do while (exit loop)
+	do(
+	// set of statement
+	) while(condition)
+	
+Jump Statement
+	- continue
+	- break
+
++++
+
+		
