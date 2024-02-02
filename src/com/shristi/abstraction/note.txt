@@ -1,0 +1,45 @@
+
+AbsDemo 
+ com.oops.abs 
+   
+abstract  Employee{ 
+  String empName, double salary, int empId; 
+  final String COMPANYNAME=""; 
+ // create a parameterised constructor 
+  void printDetails(){print all instance variables} 
+ 
+ abs void calcBonus(double amount); 
+ abs String[] showCourses(){ return courses[];} 
+ abs void showProjects(); 
+ final void showRules(){ 
+  officeHours(); 
+  syso("leave policies"); 
+  syos("od policies"); 
+ 
+}  
+private officeHours(){ 
+  syso("10 hours per day"); 
+ } 
+ 
+} 
+ 
+class Manager ext Employee{ 
+ String activity; 
+// should have a parameterised constructor 
+ // override all three methods 
+ void funClub(){ 
+   syso("Activity "+activity); 
+ }} 
+ 
+class TeamLead ext Employee{ 
+// should have a parameterised constructor 
+ // override calcBonus 
+ 
+} 
+class Developer extends TeamLead{ 
+   double chargesperHour; 
+   String sportsName; 
+// should have a parameterised constructor 
+ 
+ 
+writer.editor.GO_TO_TOPwriter.editor.GO_TO_BOTTOM

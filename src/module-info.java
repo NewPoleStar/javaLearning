@@ -4,6 +4,5 @@
 /**
  * 
  */
-module LearningJava {
-	requires java.desktop;
+module ShristiAssignments {
 }

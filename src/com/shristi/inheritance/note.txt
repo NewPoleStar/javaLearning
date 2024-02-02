@@ -1,0 +1,41 @@
+
+Assignments 
+Interfaces 
+Create a new project with InterfaceAssignments 
+Create one package for each question -  
+ocom.training.quest1 
+ocom.training.quest2 
+ocom.training. quest3 
+ocom.training. quest4 
+ocom.training. quest5 
+ 
+Question 1  
+?Create a interface as Institute with one method String[] showCourses(); 
+?Create 2 classes StudentCourses and EmployeeCourses and implement the interface 
+Institute 
+Class StudentCourses implements Institute{ 
+public String[] showCourses(){ 
+Return an array of courses as(python, java, angular, spring) 
+}} 
+?Do this for EmployeeCourses - Return an array of courses as(JFS, Agile, Cloud, spring) 
+?Create the class User having main method - > use scanner s for student, e for employee 
+?If user is a student   
+? Institute  institute = new StudentCourses and call StudentCourses method 
+?If user is a employee 
+?Try the same for EmployeeCourses class 
+ 
+ 
+Question 2  
+?Create a interface as Extractor, with one method void extractFiles(String… filenames); 
+?Create 3 classes ZipExtractor , JarExtractor , RarExtractor and implement the interface 
+Extractor 
+Class ZipExtractor  implements Zip { 
+public void extractFiles(String… filenames{ 
+     Print(“extracting from zip  =>files as .txt,jpeg, .doc files) 
+Iterate through the files and print filenames}} 
+ 
+?Do this for JarExtractor-  Print(“extracting from jar=> files as .class files) . iterate and 
+print them 
+?Do this for RarExtractor -  Print(“extracting from jar=> files as .tex files from linux os) . 
+ 
+writer.editor.GO_TO_TOPwriter.editor.GO_TO_BOTTOM

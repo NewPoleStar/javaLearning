@@ -1,0 +1,34 @@
+
+Assignments 
+ 
+Create a project with the name as OOPsAssignments 
+Create a package com.objects.basics 
+Classes and Objects 
+1.Write a program to print the Book details. 
+class Book 
+?Has properties s title, author, price.category 
+?Has parameterized constructor 
+?Has method as void getDetails() to print the details of the book 
+?checkBookType()-> 
+?If(price is greater than 500 then premium books, else standard 
+book 
+class Main 
+?Has PSVM  - create two bookobjects and call the method 
+ 
+ 
+2.Write a program to print grades of two student objects 
+class Student  
+?Has properties  name, department 
+?Has parameterized constructor 
+?Has method as void printDetails() to print the student details 
+?Has method String getGrades(int… marks ) to calculate sum, 
+average and grade as A(90-100) or B(80-90) or C(70-80) or D(60-
+70) or E(50-59) or fail 
+class Main 
+?Has PSVM  - Get User input to get student name, id and 
+marks (to populate the array). 
+?Now create 2 student objects and populate with the 
+values 
+?Call both the methods to print student details and grade 
+ 
+writer.editor.GO_TO_TOPwriter.editor.GO_TO_BOTTOM

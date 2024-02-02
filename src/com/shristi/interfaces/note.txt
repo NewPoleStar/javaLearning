@@ -1,0 +1,8 @@
+Interface: 
+	A template that can be applied to a class. 
+	Similar to inheritance, but specifies what a class has/must do. 
+	Classes can apply more than one interface, inheritance is limited to 1 super class.
+	With interfaces you can declare variable normally like you can do with inheritance, 
+	you can also declare methods and do not need to create a body for these methods. 
+	when a class is implementing one of these interfaces they need to implement 
+	and define what this method is going to do.

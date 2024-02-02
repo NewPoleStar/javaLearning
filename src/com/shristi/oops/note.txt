@@ -1,0 +1,13 @@
+Create a project with the name as OOPsAssignments
+Create a package com.objects.basics
+Classes and Objects
+1.Write a program to print the Book details.
+class Book
+Has properties s title, author, price.category
+Has parameterized constructor
+Has method as void getDetails() to print the details of the book
+checkBookType()->
+If(price is greater than 500 then premium books, else standard book
+class Main
+Has PSVM  - create two bookobjects and call the method
+
